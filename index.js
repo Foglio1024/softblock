@@ -5,11 +5,13 @@ class SoftBlock
         this.mod = mod;
         this.mod.hook("S_WHISPER", 3, ev =>
         {
+            if(!this.mod.settings.enabled) return;
+
             if(this.mod.settings.blocklist.includes(ev.name.toLowerCase()))
                 return false;
         });
 
-        this.mod.command.add('sb', (arg1, arg2, arg3, arg4) =>
+        this.mod.command.add('sb', (arg1) =>
         {
             if (arg1 === undefined)
             {

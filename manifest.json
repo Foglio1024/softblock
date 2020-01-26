@@ -1,0 +1,10 @@
+{
+	"files": {
+		"index.js": "f153249ae345794c5040bf43d8b6925ce0eaa01970c29dff7b61a546efbc2ed3",
+		"module.json": "b1e938f05bb89a7ca19bda3475c03ba7f9560a367fb34ab4c128ca868329015e",
+		"settings-migrator.js": "ca974c5393e70db9a45e3d0eee82c9c212237355519cb0396d77429e5f3cfb64"
+	},
+	"defs": {
+		"S_WHISPER": 3
+	}
+}
